@@ -37,6 +37,6 @@ function addProjectDetails(e) {
 		var image = "<img src='" + res.image + "'" + " alt='Lorem Pixel image' class='detailsImage'>";
 		var projectDetails = title + date + image + summary;
 
-		$(this).closest(".thumbnail").find(".details").html(projectDetails)
+		$(this).closest(".thumbnail").find(".details").html(projectDetails);
 	})
 }
